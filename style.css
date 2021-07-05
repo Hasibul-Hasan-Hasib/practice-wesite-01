@@ -79,7 +79,7 @@ button:hover{
     border-image-slice: 1;
     border-radius: 10px;
     margin:0% 2%;
-    padding: 100px 0px;
+    padding: 100px 5px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -95,4 +95,7 @@ button:hover{
 .box3{
     flex: 1;
     background-image: url("images/log.jpg");
+}
+.box:hover{
+    background: rgba(0, 255, 255, 0.179);
 }
