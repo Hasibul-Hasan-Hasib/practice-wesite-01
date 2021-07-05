@@ -32,6 +32,13 @@ body{
     width: 90%;
     margin:5% 20% ;
 }
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+}
 h1{
     font-size: 50px;
     margin: 0%;
