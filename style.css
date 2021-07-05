@@ -1,7 +1,7 @@
 body{
     margin: 0;
     text-align: justify;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Yomogi', cursive;
 }
 
 
@@ -20,6 +20,10 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+.flex{
+    display: flex;
+    margin-bottom: 100px;
+}
 #hsb{
     font-size: 70px;
     color: salmon;
@@ -33,11 +37,16 @@ h1{
     margin: 0%;
     padding: 0%;
 }
+h2{
+    font-size: 30px;
+}
 p{
     width:100%;
     text-align: center;
     margin: 10px;
+    margin-bottom: 30Px;
     padding: 2px;
+    font-size: 20px;
 }
 button{
     text-align: center;
@@ -61,10 +70,9 @@ button:hover{
 
 .spaces{
     margin:2% 0;
-}
-.spaces h1{
+    margin-bottom: 3%;
     color: orange;
-    text-align: center;
+    text-align:center;
 }
 .container{
     display: flex;
@@ -79,7 +87,7 @@ button:hover{
     border-image-slice: 1;
     border-radius: 10px;
     margin:0% 2%;
-    padding: 100px 5px;
+    padding: 100px 2%;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -98,4 +106,44 @@ button:hover{
 }
 .box:hover{
     background: rgba(0, 255, 255, 0.179);
+}
+
+
+
+/* previous section */
+
+
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    margin-top: 5%;
+    width: 70%;
+    padding: 5%;
+}
+.link-button{
+    text-decoration: none;
+    color: whitesmoke;
+    background-image: linear-gradient(45deg, #833ab4, #fd1d1d , #fcb045 );
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.top-banner{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.dream-big{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.padding-left{
+    padding-right: 3%;
+}
+footer p{
+    text-align: center;
+    font-size: 13px;
 }
